@@ -32,6 +32,11 @@ Al finalizar la sesión de evaluación de la práctica, deberá entregar 2 eleme
 * El enlace a su repositorio privado, que puede incluir en su entrega desde el momento en que acepte la tarea en GitHub Classroom, no es necesario que espere a la sesión de evaluación para subirlo.
 * Un fichero `.tar.gz` conteniendo todos los programas que desarrolle, tanto antes como durante la sesión de evaluación. Deberá esperar a la sesión de evaluación para subir el fichero `.tar.gz` conteniendo sus programas.
 
+### `.gitignore`
+Incluido en su repositorio privado debería aparecer un fichero `.gitignore`, que también encontrará en la mayoría de repositorios de Git. Este fichero contiene una colección de *patrones* que indican qué ficheros deberían descartarse automáticamente a la hora de guardar los cambios en un repositorio. La web [gitignore.io](https://www.gitignore.io/) permite generar este tipo de ficheros de forma sencilla para el lenguaje o sistema que utilice su repositorio.
+
+Pruebe a generar un `.gitignore` para repositorios que contengan programas en C++. Los patrones que aparecerán definen todos los ficheros superfluos que pueden generarse con la compilación y que no es necesario registrar en el sistema de control de versiones. Observe que en la lista aparecen por ejemplo los ficheros `.o`, con los que ya debería estar familiarizado/a. Puede editar en cualquier momento su fichero `.gitignore` para añadir otros ficheros que desee que `git` descarte - como por ejemplo los nombres de los ficheros ejecutables que `make` deberá generar.
+
 ### Material de estudio complementario
 Estudie todo lo que se indica en el epígrafe [Comments](https://google.github.io/styleguide/cppguide.html#Comments) de la Guía de Estilo de Google y ponga en práctica todo lo que en ella se propone.
 
