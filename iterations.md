@@ -28,6 +28,13 @@ Cuando haya Ud. aceptado la tarea, aparecerá una pantalla de confirmación. Cua
 
 Al contrario que los repositorios que ha clonado previamente en esta asignatura, Ud. estará autorizado/a a realizar modificaciones sobre el repositorio que se genere al aceptar cada tarea. Consulte la práctica anterior para recordar cómo transferir las modificaciones que realice sobre el mismo en su máquina virtual a GitHub (usando `git commit` y `git push`). Recuerde hacer estas operaciones con frecuencia para mantener un registro de los cambios realizados. Tenga en cuenta que cada uno de estos cambios quedan registrados permanentemente en el repositorio y serán visibles para el profesorado.
 
+La primera vez que intente ejecutar `git commit` o `git push`, *git* le solicitará que se identifique y le dará instrucciones para ello. Tendrá que ejecutar los siguiente comandos:
+``` .bash
+$ git config --global user.name "nombre de usuario"
+$ git config --global user.email "alu-----@ull.edu.es"
+```
+sustituyendo entre las comillas el nombre de usuario y la dirección de correo que haya asociado a su cuenta de GitHub, y su máquina virtual quedará correctamente configurada para poder actualizar sus repositorios.
+
 Al finalizar la sesión de evaluación de la práctica, deberá entregar 2 elementos: 
 * El enlace a su repositorio privado, que puede incluir en su entrega desde el momento en que acepte la tarea en GitHub Classroom, no es necesario que espere a la sesión de evaluación para subirlo.
 * Un fichero `.tar.gz` conteniendo todos los programas que desarrolle, tanto antes como durante la sesión de evaluación. Deberá esperar a la sesión de evaluación para subir el fichero `.tar.gz` conteniendo sus programas.
